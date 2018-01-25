@@ -5,9 +5,16 @@
   "private": true,
   "dependencies": {
     "express": "3.x",
-    "express3-handlebars": "*"
+    "express3-handlebars": "^0.5.2",
+    "save": "^2.3.2"
   },
   "engines": {
     "node": "0.10.x"
-  }  
+  },
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
 }
